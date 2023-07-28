@@ -137,9 +137,37 @@
 // }
 
 /////////////////////    ENUM
+// enum used to pre-define values
+// enum Day { 
+//     Monday,
+//     Tuesday,
+//     Wednesday,
+//     Thursday,
+//     Friday,
+//     Saturday,
+//     Sunday
+// }
+// let bestDay: Day = Day.Friday;
+// console.log(`best day ${bestDay}`)
 
+// // conditional rendering    also called one liner
+// let numb : number = 0 ;
+// numb ? console.log(`Your numb is ${numb}`) : console.log(`Not numb ${numb}`);
 
+// let Student1  = {
+//     address: {
+//         zipCode : 78546,
+//         streetNumber : 21
+//     },
+// }
+// console.log(Student1.myName)
+// let myName = Student1.myName
+// myName ? console.log(`Student myName ${myName}`) : console.log(`Not found ${myName}`)
 
+////                    classes
+class Greeter {
+    
+}
 
 
 
