@@ -96,3 +96,11 @@
 
 // }
 
+//                Tuples
+// var tuple : Array<number | string | boolean> = ["Hello", 'trueeeee', 1, true, 1, true, 1, true, 1];
+// console.log(tuple)
+// tuple.push("hello");
+// tuple.push(3.17);
+// console.log('tuple after modification '+ tuple);
+// const secondElement = tuple[1];
+// console.log(secondElement+' second element ');
