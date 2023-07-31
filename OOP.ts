@@ -172,7 +172,7 @@ console.log(`---------------------Starts Learning OOP in Typescript-------------
 //     constructor(theName: string) { 
 //         this.name = theName; 
 //     }
-    
+
 //     move(meters: number) {
 //         console.log(this.name + " moved " + meters + "m.");
 //     }
@@ -191,4 +191,60 @@ console.log(`---------------------Starts Learning OOP in Typescript-------------
 //                            nominal type
 // in nominal type while comparing two classes, there must be the same type 
 // if one class has private modifier than others must have private modifier
+
+//                          class protected modifier
+
+// class ListString {
+//     private content: string[];
+//     constructor(){
+//         this.content = []
+//     }
+//     protected setElement(index: number, item: string){
+//         this.content[index] = item;
+//     }
+// }
+// class StackString extends ListString {
+//     currentIndex: number;
+//     constructor(){
+//         super();
+//         this.currentIndex = 1;
+//     }
+//     public push(item: string){
+//         this.setElement(this.currentIndex, item);
+//         this.currentIndex++;
+//         console.log(this.currentIndex+' current index ');
+//     }
+// }
+// var stack = new StackString();
+// stack.push('h1')
+
+
+//                                  getter setters / accessors
+// const passCode : string | undefined = "passcode";
+// class Employee {
+//     private _fullName: string | undefined;
+//     get fullName(){
+//         return this._fullName
+//     }
+//     set fullName(newName: string | undefined){
+//         this._fullName = newName;
+//     }
+// }
+// const employee = new Employee();
+// employee.fullName = "Bob Johnss";
+// if(employee.fullName){
+//     console.log(employee.fullName + ' employee full name ')
+// }
+
+//  interfaces as array types
+
+interface StringArray {
+    [index: number] : string;
+    length: number;
+}
+let myArray : StringArray = ["Bob", "Fred", "10"];
+console.log(myArray[1]);
+
+
+
 
