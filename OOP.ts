@@ -238,12 +238,12 @@ console.log(`---------------------Starts Learning OOP in Typescript-------------
 
 //  interfaces as array types
 
-interface StringArray {
-    [index: number] : string;
-    length: number;
-}
-let myArray : StringArray = ["Bob", "Fred", "10"];
-console.log(myArray[1]);
+// interface StringArray {
+//     [index: number] : string;
+//     length: number;
+// }
+// let myArray : StringArray = ["Bob", "Fred", "10"];
+// console.log(myArray[1]);
 
 
 
